@@ -1,5 +1,81 @@
-.navbar li {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    position: fixed;
+    color: white;
+    height: 80px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
     display: inline-block;
-    margin: 0 5px;
+    margin-right: 200px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
     list-style: none;
+    font-weight: bold;
+    font-size: 1.25rem
+}
+
+.home {
+    background-image: url("Assets\\imgs\\gg.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+    margin-left: 50px;
+    height: 232px;
+    width: 276px;
+}
+
+.mini-logo {
+    height: 90px;
+    width: 90px;
+    margin-left: 200px;
+}
+
+.about {
+    background-color: #ffffff;
+    height: 910px;
+    width: 10vw;
+}
+
+.shop {
+    background-color: #000000;
+    height: 910px;
+    width: 10vw;
+}
+
+.info {
+    background-color: #ffffff;
+    height: 910px;
+    width: 10vw;
+}
+
+.contact {
+    background-color: #ffffff;
+    height: 910px;
+    width: 10vw;
+}
+
+footer {
+    background-color: #000000;
 }
