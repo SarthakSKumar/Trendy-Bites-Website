@@ -8,6 +8,21 @@ html {
     font-family: 'Baloo Bhai 2', cursive;
 }
 
+::-webkit-scrollbar {
+    width: 0.1rem;
+    background: #000000;
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #efaa31;
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff;
+}
+
 .navbar-top {
     background: transparent;
     display: flex;
