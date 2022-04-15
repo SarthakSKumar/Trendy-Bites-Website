@@ -7,8 +7,8 @@ html {
     font-family: 'Baloo Bhai 2', cursive;
 }
 
-header {
-    background-color: #000000;
+.navbar-top {
+    background: transparent;
     display: flex;
     position: fixed;
     color: white;
@@ -18,17 +18,26 @@ header {
     align-items: center;
 }
 
-.navbar {
-    display: inline-block;
+nav {
     margin-right: 200px;
 }
 
-.navbar ul li {
+nav ul li {
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 25px;
     list-style: none;
     font-weight: bold;
-    font-size: 1.25rem
+    font-size: 1.1rem
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #efaa31;
+    transition: .3s;
 }
 
 .home {
@@ -39,41 +48,62 @@ header {
 }
 
 .logo {
-    position: absolute;
-    top: 5px;
-    margin-left: 50px;
-    height: 232px;
-    width: 276px;
-}
-
-.mini-logo {
-    height: 90px;
-    width: 90px;
+    height: 142px;
+    width: 186px;
+    margin-top: 80px;
     margin-left: 200px;
 }
 
 .about {
     background-color: #ffffff;
-    height: 910px;
-    width: 10vw;
+    height: 80vh;
+    width: 100%;
+}
+
+.about_img {
+    height: 299px;
+    width: 504px;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    margin: 50px 200px 50px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading1 {
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.paragraph {
+    margin: 10px 20px 10px 20px;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3px;
 }
 
 .shop {
     background-color: #000000;
     height: 910px;
-    width: 10vw;
+    width: 100%;
 }
 
 .info {
     background-color: #ffffff;
     height: 910px;
-    width: 10vw;
+    width: 100%;
 }
 
 .contact {
     background-color: #ffffff;
     height: 910px;
-    width: 10vw;
+    width: 100%;
 }
 
 footer {
