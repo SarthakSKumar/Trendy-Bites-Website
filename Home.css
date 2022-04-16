@@ -1,5 +1,5 @@
-.u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/gg.jpg");
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/gg.jpg");
   background-position: 50% 0%;
 }
 
@@ -88,16 +88,32 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 241px;
+    min-height: 840px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 3rem;
-    margin-right: 2px;
+    width: auto;
+    margin-top: 240px;
+    margin-right: -18px;
+    margin-left: 20px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 3rem;
+    width: auto;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 48px;
+    margin-left: 20px;
+  }
+
+  .u-section-1 .u-icon-1 {
+    margin-top: 258px;
   }
 }
 
@@ -132,9 +148,7 @@
 .u-container-layout.hover .u-section-1 .u-icon-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
   opacity: 1 !important;
-}
-
-.u-section-2 .u-sheet-1 {
+}.u-section-2 .u-sheet-1 {
   min-height: 649px;
 }
 
@@ -342,7 +356,8 @@
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    margin-top: -286px;
+    margin-top: 20px;
+    margin-bottom: initial;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -358,8 +373,9 @@
   }
 
   .u-section-2 .u-text-5 {
+    margin-top: 20px;
     margin-right: 0;
-    margin-bottom: 46px;
+    margin-bottom: initial;
   }
 }
 
@@ -368,16 +384,8 @@
     min-height: 733px;
   }
 
-  .u-section-2 .u-text-1 {
-    font-size: 1.5rem;
-  }
-
   .u-section-2 .u-line-1 {
     margin-top: 418px;
-  }
-
-  .u-section-2 .u-layout-wrap-1 {
-    margin-top: -363px;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -403,7 +411,6 @@
   }
 
   .u-section-2 .u-text-5 {
-    margin-top: -104px;
     margin-bottom: 0;
   }
 }
@@ -469,9 +476,7 @@
 
 .u-container-layout.hover .u-section-2 .u-text-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-}
-
-.u-section-3 .u-sheet-1 {
+}.u-section-3 .u-sheet-1 {
   min-height: 1005px;
 }
 
@@ -522,11 +527,11 @@
 
 .u-section-3 .u-group-1 {
   width: 273px;
-  min-height: 50px;
+  min-height: 44px;
   background-size: auto;
   height: auto;
   transition-duration: 0.5s;
-  box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 21px auto 0;
 }
@@ -541,14 +546,14 @@
   font-size: 1.25rem;
   font-weight: 700;
   background-image: none;
-  margin: 12px 15px 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-3 {
   font-family: "Baloo Bhai 2";
   font-size: 1.4375rem;
   font-weight: 700;
-  margin: 13px 105px 0 auto;
+  margin: 19px 105px 0 auto;
 }
 
 .u-section-3 .u-text-4 {
@@ -578,11 +583,11 @@
 
 .u-section-3 .u-group-2 {
   width: 273px;
-  min-height: 50px;
+  min-height: 44px;
   background-size: auto;
   height: auto;
   transition-duration: 0.5s;
-  box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 21px auto 0;
 }
@@ -596,14 +601,14 @@
   font-family: "Baloo Bhai 2";
   font-size: 1.25rem;
   font-weight: 700;
-  margin: 12px 15px 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-6 {
   font-family: "Baloo Bhai 2";
   font-size: 1.4375rem;
   font-weight: 700;
-  margin: 13px 105px 0 auto;
+  margin: 19px 105px 0 auto;
 }
 
 .u-section-3 .u-text-7 {
@@ -633,11 +638,11 @@
 
 .u-section-3 .u-group-3 {
   width: 273px;
-  min-height: 50px;
+  min-height: 44px;
   background-size: auto;
   height: auto;
   transition-duration: 0.5s;
-  box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 21px auto 0;
 }
@@ -651,14 +656,14 @@
   font-family: "Baloo Bhai 2";
   font-size: 1.25rem;
   font-weight: 700;
-  margin: 12px 15px 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-9 {
   font-family: "Baloo Bhai 2";
   font-size: 1.4375rem;
   font-weight: 700;
-  margin: 13px 105px 0 auto;
+  margin: 19px 105px 0 auto;
 }
 
 .u-section-3 .u-text-10 {
@@ -688,11 +693,11 @@
 
 .u-section-3 .u-group-4 {
   width: 273px;
-  min-height: 50px;
+  min-height: 44px;
   background-size: auto;
   height: auto;
   transition-duration: 0.5s;
-  box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 21px auto 0;
 }
@@ -706,14 +711,14 @@
   font-family: "Baloo Bhai 2";
   font-size: 1.25rem;
   font-weight: 700;
-  margin: 12px 15px 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-12 {
   font-family: "Baloo Bhai 2";
   font-size: 1.4375rem;
   font-weight: 700;
-  margin: 13px 105px 0 auto;
+  margin: 19px 105px 0 auto;
 }
 
 .u-section-3 .u-text-13 {
@@ -743,11 +748,11 @@
 
 .u-section-3 .u-group-5 {
   width: 273px;
-  min-height: 50px;
+  min-height: 44px;
   background-size: auto;
   height: auto;
   transition-duration: 0.5s;
-  box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 21px auto 0;
 }
@@ -761,14 +766,14 @@
   font-family: "Baloo Bhai 2";
   font-size: 1.25rem;
   font-weight: 700;
-  margin: 12px 15px 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-15 {
   font-family: "Baloo Bhai 2";
   font-size: 1.4375rem;
   font-weight: 700;
-  margin: 13px 105px 0 auto;
+  margin: 19px 105px 0 auto;
 }
 
 .u-section-3 .u-text-16 {
@@ -798,11 +803,11 @@
 
 .u-section-3 .u-group-6 {
   width: 273px;
-  min-height: 50px;
+  min-height: 44px;
   background-size: auto;
   height: auto;
   transition-duration: 0.5s;
-  box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 21px auto 0;
 }
@@ -816,14 +821,14 @@
   font-family: "Baloo Bhai 2";
   font-size: 1.25rem;
   font-weight: 700;
-  margin: 12px 15px 0;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-text-18 {
   font-family: "Baloo Bhai 2";
   font-size: 1.4375rem;
   font-weight: 700;
-  margin: 13px 105px 0 auto;
+  margin: 19px 105px 0 auto;
 }
 
 .u-section-3 .u-text-19 {
@@ -891,6 +896,36 @@
   .u-section-3 .u-repeater-1 {
     grid-template-columns: 50% 50%;
   }
+
+  .u-section-3 .u-text-4 {
+    margin-top: 20px;
+    margin-bottom: initial;
+  }
+
+  .u-section-3 .u-text-7 {
+    margin-top: 20px;
+    margin-bottom: initial;
+  }
+
+  .u-section-3 .u-text-10 {
+    margin-top: 20px;
+    margin-bottom: initial;
+  }
+
+  .u-section-3 .u-text-13 {
+    margin-top: 20px;
+    margin-bottom: initial;
+  }
+
+  .u-section-3 .u-text-16 {
+    margin-top: 20px;
+    margin-bottom: initial;
+  }
+
+  .u-section-3 .u-text-19 {
+    margin-top: 20px;
+    margin-bottom: initial;
+  }
 }
 
 @media (max-width: 767px) {
@@ -903,9 +938,17 @@
     padding-right: 20px;
   }
 
+  .u-section-3 .u-text-4 {
+    margin-bottom: 0;
+  }
+
   .u-section-3 .u-container-layout-4 {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .u-section-3 .u-text-7 {
+    margin-bottom: 0;
   }
 
   .u-section-3 .u-container-layout-6 {
@@ -913,9 +956,17 @@
     padding-right: 20px;
   }
 
+  .u-section-3 .u-text-10 {
+    margin-bottom: 0;
+  }
+
   .u-section-3 .u-container-layout-8 {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .u-section-3 .u-text-13 {
+    margin-bottom: 0;
   }
 
   .u-section-3 .u-container-layout-10 {
@@ -923,35 +974,83 @@
     padding-right: 20px;
   }
 
+  .u-section-3 .u-text-16 {
+    margin-bottom: 0;
+  }
+
   .u-section-3 .u-container-layout-12 {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .u-section-3 .u-text-19 {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-text-1 {
-    font-size: 1.5rem;
+  .u-section-3 .u-text-2 {
+    margin-top: 10px;
   }
 
   .u-section-3 .u-text-4 {
     margin-left: 72px;
   }
 
+  .u-section-3 .u-group-2 {
+    min-height: 40px;
+  }
+
+  .u-section-3 .u-text-5 {
+    margin-top: 10px;
+  }
+
   .u-section-3 .u-text-7 {
     margin-left: 72px;
+  }
+
+  .u-section-3 .u-group-3 {
+    min-height: 40px;
+  }
+
+  .u-section-3 .u-text-8 {
+    margin-top: 10px;
   }
 
   .u-section-3 .u-text-10 {
     margin-left: 72px;
   }
 
+  .u-section-3 .u-group-4 {
+    min-height: 40px;
+  }
+
+  .u-section-3 .u-text-11 {
+    margin-top: 10px;
+  }
+
   .u-section-3 .u-text-13 {
     margin-left: 72px;
   }
 
+  .u-section-3 .u-group-5 {
+    min-height: 40px;
+  }
+
+  .u-section-3 .u-text-14 {
+    margin-top: 10px;
+  }
+
   .u-section-3 .u-text-16 {
     margin-left: 72px;
+  }
+
+  .u-section-3 .u-group-6 {
+    min-height: 40px;
+  }
+
+  .u-section-3 .u-text-17 {
+    margin-top: 10px;
   }
 
   .u-section-3 .u-text-19 {
@@ -1104,12 +1203,12 @@
 
 .u-section-3 .u-container-layout:hover .u-group-2 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-container-layout.hover .u-section-3 .u-group-2 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-section-3 .u-group-1,
@@ -1119,12 +1218,12 @@
 
 .u-section-3 .u-container-layout:hover .u-group-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-container-layout.hover .u-section-3 .u-group-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-section-3 .u-group-3,
@@ -1134,12 +1233,12 @@
 
 .u-section-3 .u-container-layout:hover .u-group-3 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-container-layout.hover .u-section-3 .u-group-3 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-section-3 .u-group-4,
@@ -1149,12 +1248,12 @@
 
 .u-section-3 .u-container-layout:hover .u-group-4 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-container-layout.hover .u-section-3 .u-group-4 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-section-3 .u-group-5,
@@ -1164,12 +1263,12 @@
 
 .u-section-3 .u-container-layout:hover .u-group-5 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-container-layout.hover .u-section-3 .u-group-5 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-section-3 .u-group-6,
@@ -1179,12 +1278,12 @@
 
 .u-section-3 .u-container-layout:hover .u-group-6 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-container-layout.hover .u-section-3 .u-group-6 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-  box-shadow: 2px 2px 8px 0 rgba(128, 128, 128, 1) !important;
+  box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important;
 }
 
 .u-section-3 .u-text-1,
@@ -1206,9 +1305,7 @@
 
 .u-container-layout.hover .u-section-3 .u-text-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-}
-
-.u-section-4 {
+} .u-section-4 {
   background-image: none;
 }
 
@@ -1251,10 +1348,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-4 .u-text-1 {
-    font-size: 1.5rem;
-  }
-
   .u-section-4 .u-image-1 {
     margin-right: 10px;
   }
@@ -1300,9 +1393,7 @@
 
 .u-container-layout.hover .u-section-4 .u-image-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-}
-
-.u-section-5 {
+} .u-section-5 {
   background-image: none;
 }
 
@@ -1343,7 +1434,7 @@
   font-family: "Baloo Bhai 2";
   font-size: 1.25rem;
   font-weight: 600;
-  text-decoration: none !important;
+  text-decoration: none solid rgb(255, 255, 255);
   margin: 62px auto 0 83px;
 }
 
@@ -1351,6 +1442,7 @@
   font-family: "Baloo Bhai 2";
   transition-duration: 0.5s;
   font-size: 1rem;
+  font-weight: normal;
   margin: 8px auto 0 83px;
 }
 
@@ -1428,10 +1520,6 @@
     min-height: 330px;
   }
 
-  .u-section-5 .u-text-3 {
-    font-weight: normal;
-  }
-
   .u-section-5 .u-layout-cell-2 {
     min-height: 330px;
   }
@@ -1477,8 +1565,8 @@
     min-height: 533px;
   }
 
-  .u-section-5 .u-text-1 {
-    font-size: 1.5rem;
+  .u-section-5 .u-text-2 {
+    text-decoration: none !important;
   }
 }
 
