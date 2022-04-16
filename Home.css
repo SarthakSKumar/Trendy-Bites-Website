@@ -576,6 +576,7 @@
   font-family: "Baloo Bhai 2";
   font-weight: 700;
   background-image: none;
+  font-size: 1.25rem;
   margin: 0 auto;
 }
 
@@ -1153,7 +1154,6 @@
   }
 
   .u-section-3 .u-text-2 {
-    font-size: 1.25rem;
     margin-top: 0;
     margin-right: 9px;
     margin-left: 0;
@@ -1714,7 +1714,7 @@
   font-family: "Baloo Bhai 2";
   font-size: 1.25rem;
   font-weight: 600;
-  text-decoration: none solid rgb(255, 255, 255);
+  text-decoration: none !important;
   margin: 62px auto 0 83px;
 }
 
@@ -1722,7 +1722,6 @@
   font-family: "Baloo Bhai 2";
   transition-duration: 0.5s;
   font-size: 1rem;
-  font-weight: normal;
   margin: 8px auto 0 83px;
 }
 
@@ -1800,6 +1799,10 @@
     min-height: 330px;
   }
 
+  .u-section-5 .u-text-3 {
+    font-weight: normal;
+  }
+
   .u-section-5 .u-layout-cell-2 {
     min-height: 330px;
   }
@@ -1843,10 +1846,6 @@
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
     min-height: 533px;
-  }
-
-  .u-section-5 .u-text-2 {
-    text-decoration: none !important;
   }
 }
 

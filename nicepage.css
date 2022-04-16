@@ -38365,6 +38365,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-4 {
     width: auto;
+    margin-top: 0;
     margin-right: calc(((100% - 940px) / 2) + 788px);
     margin-left: calc(((100% - 940px) / 2) + 15px);
   }
