@@ -38210,6 +38210,14 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-right: 38px;
   }
 
+  .u-header .u-nav-2 {
+    font-size: 1.125rem;
+    font-family: "Baloo Bhai 2";
+    width: 141px;
+    font-weight: 500;
+    margin: 209px 335px 0 auto;
+  }
+
   .u-header .u-social-icons-1 {
     margin-top: -32px;
     margin-right: 190px;
@@ -38220,10 +38228,15 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     margin-top: -125px;
   }
+
+  .u-header .u-nav-2 {
+    width: 141px;
+    margin-right: 29px;
+  }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 141px;
+    min-height: 125px;
   }
 
   .u-header .u-image-1 {
@@ -38234,8 +38247,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: -80px;
-    margin-right: 12px;
+    margin-top: -75px;
+    margin-right: 20px;
   }
 
   .u-header .u-file-icon-1 {
@@ -38244,17 +38257,16 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-nav-2 {
-    font-size: 1.125rem;
     width: 182px;
-    font-family: "Baloo Bhai 2";
     font-weight: 600;
-    margin: 265px auto 0;
+    margin-top: 265px;
+    margin-right: auto;
   }
 
   .u-header .u-social-icons-1 {
-    margin-top: -26px;
+    margin-top: -24px;
     margin-right: 75px;
-    margin-bottom: 60px;
+    margin-bottom: 54px;
   }
 }
 .u-header .u-image-1, .u-header .u-image-1:before {
