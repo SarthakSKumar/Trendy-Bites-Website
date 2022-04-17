@@ -1772,7 +1772,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .u-section-4 .u-text-1 {
     transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   }
@@ -1968,10 +1968,6 @@
     min-height: 591px;
   }
 
-  .u-section-5 .u-text-1 {
-    transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  }
-
   .u-section-5 .u-layout-cell-1 {
     min-height: 100px;
   }
@@ -1984,6 +1980,10 @@
 @media (max-width: 767px) {
   .u-section-5 .u-sheet-1 {
     min-height: 818px;
+  }
+
+  .u-section-5 .u-text-1 {
+    transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   }
 
   .u-section-5 .u-container-layout-1 {
