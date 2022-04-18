@@ -38390,7 +38390,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-layout-cell-3 {
-  min-height: 178px;
+  min-height: 298px;
 }
 
 .u-footer .u-container-layout-3 {
@@ -38408,8 +38408,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-family: "Baloo Bhai 2";
   font-size: 1.125rem;
   font-weight: 600;
-  width: auto;
-  margin: 131px 245px -28px 42px;
+  margin: 0 152px 0 26px;
 }
 
 .u-footer .u-layout-cell-4 {
@@ -38476,9 +38475,19 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 55px;
   }
 
+  .u-footer .u-layout-cell-3 {
+    min-height: 178px;
+  }
+
   .u-footer .u-text-6 {
     margin-right: 90px;
     margin-left: 36px;
+  }
+
+  .u-footer .u-text-7 {
+    width: auto;
+    margin-right: 245px;
+    margin-left: 42px;
   }
 
   .u-footer .u-layout-cell-4 {
