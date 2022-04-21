@@ -807,7 +807,7 @@
 
 .u-section-3 .u-products-1 {
   width: 890px;
-  margin: 20px auto 46px;
+  margin: 20px auto 0;
 }
 
 .u-section-3 .u-repeater-1 {
@@ -826,31 +826,7 @@
   position: absolute;
 }
 
-.u-section-3 .u-group-1 {
-  width: 295px;
-  min-height: 270px;
-  height: auto;
-  margin: 0 0 0 auto;
-}
-
-.u-section-3 .u-image-1 {
-  background-image: url("/images/Trendy_Okra_Image.png");
-  padding: 0;
-}
-
-.u-section-3 .u-container-layout-3 {
-  background-image: none;
-  transition-duration: 1.5s;
-  padding: 0;
-}
-
-.u-section-3 .u-image-2 {
-  height: 174px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.u-section-3 .u-container-layout-4 {
+.u-section-3 .u-container-layout-2 {
   padding: 0;
 }
 
@@ -860,32 +836,7 @@
   position: absolute;
 }
 
-.u-section-3 .u-group-2 {
-  width: 295px;
-  min-height: 270px;
-  height: auto;
-  margin: 0 0 0 auto;
-}
-
-.u-section-3 .u-image-3 {
-  background-image: url("/images/Trendy_Puffed_Logo.png");
-  background-position: 50% 50%;
-  padding: 0;
-}
-
-.u-section-3 .u-container-layout-6 {
-  background-image: none;
-  transition-duration: 1.5s;
-  padding: 0;
-}
-
-.u-section-3 .u-image-4 {
-  height: 174px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.u-section-3 .u-container-layout-7 {
+.u-section-3 .u-container-layout-3 {
   padding: 0;
 }
 
@@ -895,32 +846,7 @@
   position: absolute;
 }
 
-.u-section-3 .u-group-3 {
-  width: 295px;
-  min-height: 270px;
-  height: auto;
-  margin: 0 0 0 auto;
-}
-
-.u-section-3 .u-image-5 {
-  background-image: url("/images/Trendy_Pineapple_Image.png");
-  background-position: 50% 50%;
-  padding: 0;
-}
-
-.u-section-3 .u-container-layout-9 {
-  background-image: none;
-  transition-duration: 1.5s;
-  padding: 0;
-}
-
-.u-section-3 .u-image-6 {
-  height: 174px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.u-section-3 .u-container-layout-10 {
+.u-section-3 .u-container-layout-4 {
   padding: 0;
 }
 
@@ -930,32 +856,7 @@
   position: absolute;
 }
 
-.u-section-3 .u-group-4 {
-  width: 295px;
-  min-height: 270px;
-  height: auto;
-  margin: 0 0 0 auto;
-}
-
-.u-section-3 .u-image-7 {
-  background-image: url("/images/channa_with-image-512x465.png");
-  background-position: 50% 50%;
-  padding: 0;
-}
-
-.u-section-3 .u-container-layout-12 {
-  background-image: none;
-  transition-duration: 1.5s;
-  padding: 0;
-}
-
-.u-section-3 .u-image-8 {
-  height: 174px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.u-section-3 .u-container-layout-13 {
+.u-section-3 .u-container-layout-5 {
   padding: 0;
 }
 
@@ -965,31 +866,7 @@
   position: absolute;
 }
 
-.u-section-3 .u-group-5 {
-  width: 295px;
-  min-height: 270px;
-  height: auto;
-  margin: 0 0 0 auto;
-}
-
-.u-section-3 .u-image-9 {
-  background-image: url("/images/Trendy_Okra_Image.png");
-  padding: 0;
-}
-
-.u-section-3 .u-container-layout-15 {
-  transition-duration: 1.5s;
-  background-image: none;
-  padding: 0;
-}
-
-.u-section-3 .u-image-10 {
-  height: 174px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.u-section-3 .u-container-layout-16 {
+.u-section-3 .u-container-layout-6 {
   padding: 0;
 }
 
@@ -999,61 +876,9 @@
   position: absolute;
 }
 
-.u-section-3 .u-group-6 {
-  width: 295px;
-  min-height: 270px;
-  height: auto;
-  margin: 0 0 0 auto;
-}
-
-.u-section-3 .u-image-11 {
-  background-image: url("/images/Trendy_Okra_Image.png");
-  padding: 0;
-}
-
-.u-section-3 .u-container-layout-18 {
-  transition-duration: 1.5s;
-  background-image: none;
-  padding: 0;
-}
-
-.u-section-3 .u-image-12 {
-  height: 174px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
 @media (max-width: 1199px) {
   .u-section-3 .u-repeater-1 {
     min-height: 794px;
-  }
-
-  .u-section-3 .u-group-1 {
-    height: auto;
-  }
-
-  .u-section-3 .u-image-2 {
-    margin-top: 161px;
-  }
-
-  .u-section-3 .u-group-2 {
-    height: auto;
-  }
-
-  .u-section-3 .u-group-3 {
-    height: auto;
-  }
-
-  .u-section-3 .u-group-4 {
-    height: auto;
-  }
-
-  .u-section-3 .u-group-5 {
-    height: auto;
-  }
-
-  .u-section-3 .u-group-6 {
-    height: auto;
   }
 }
 
