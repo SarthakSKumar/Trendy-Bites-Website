@@ -786,7 +786,7 @@
 .u-container-layout.hover .u-section-2 .u-icon-4 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }.u-section-3 .u-sheet-1 {
-  min-height: 866px;
+  min-height: 100vh;
 }
 
 .u-section-3 .u-text-1 {
@@ -813,12 +813,12 @@
 
 .u-section-3 .u-repeater-1 {
   grid-template-columns: 33.3333% 33.3333% 33.3333%;
-  min-height: 398px;
+  min-height: 374px;
   grid-gap: 0px 0px;
 }
 
 .u-section-3 .u-container-layout-1 {
-  padding: 20px 30px;
+  padding: 20px 30px 19px;
 }
 
 .u-section-3 .u-image-1 {
@@ -835,11 +835,12 @@
 }
 
 .u-section-3 .u-text-3 {
-  margin: 28px 0 0;
+  font-family: "Baloo Bhai 2";
+  margin: 8px 0 0;
 }
 
 .u-section-3 .u-container-layout-2 {
-  padding: 20px 30px;
+  padding: 20px 30px 19px;
 }
 
 .u-section-3 .u-image-2 {
@@ -856,11 +857,12 @@
 }
 
 .u-section-3 .u-text-5 {
-  margin: 28px 0 0;
+  font-family: "Baloo Bhai 2";
+  margin: 8px 0 0;
 }
 
 .u-section-3 .u-container-layout-3 {
-  padding: 20px 30px;
+  padding: 20px 30px 19px;
 }
 
 .u-section-3 .u-image-3 {
@@ -877,13 +879,14 @@
 }
 
 .u-section-3 .u-text-7 {
-  margin: 28px 0 0;
+  font-family: "Baloo Bhai 2";
+  margin: 8px 0 0;
 }
 
 .u-section-3 .u-list-2 {
   grid-template-rows: auto;
   margin-top: 0;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 .u-section-3 .u-repeater-2 {
@@ -911,7 +914,8 @@
 }
 
 .u-section-3 .u-text-9 {
-  margin: 28px 109px 0 82px;
+  font-family: "Baloo Bhai 2";
+  margin: 8px 105px 0 86px;
 }
 
 .u-section-3 .u-container-layout-5 {
@@ -932,13 +936,14 @@
 }
 
 .u-section-3 .u-text-11 {
-  margin: 28px 109px 0 82px;
+  font-family: "Baloo Bhai 2";
+  margin: 8px 105px 0 86px;
 }
 
 @media (max-width: 1199px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: repeat(3, 33.333333333333336%);
-    min-height: 328px;
+    min-height: 309px;
   }
 
   .u-section-3 .u-repeater-2 {
@@ -960,7 +965,7 @@
 @media (max-width: 991px) {
   .u-section-3 .u-repeater-1 {
     grid-template-columns: repeat(2, 50%);
-    min-height: 754px;
+    min-height: 710px;
   }
 
   .u-section-3 .u-repeater-2 {
