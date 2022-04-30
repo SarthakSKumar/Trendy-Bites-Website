@@ -20,7 +20,8 @@
   border-style: solid;
   text-transform: uppercase;
   font-weight: 600;
-  margin: 49px auto 0;
+  letter-spacing: normal;
+  margin: 35px auto 0;
 }
 
 .u-section-1 .u-icon-1 {
@@ -28,7 +29,7 @@
   height: 25px;
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: 31px auto 60px;
+  margin: 35px auto 60px;
   padding: 0;
 }
 
@@ -42,18 +43,25 @@
   }
 
   .u-section-1 .u-btn-1 {
-    letter-spacing: normal;
     align-self: center;
   }
 }
 
 @media (max-width: 991px) {
+   .u-section-1 {
+    background-position: 90.85% 50%;
+  }
+
   .u-section-1 .u-btn-1 {
     align-self: flex-end;
   }
 }
 
 @media (max-width: 575px) {
+   .u-section-1 {
+    background-position: 23.86% 50%;
+  }
+
   .u-section-1 .u-image-1 {
     width: 340px;
     height: 340px;
