@@ -1,24 +1,22 @@
  .u-section-1 {
   background-image: none;
-  min-height: 815px;
+  min-height: 704px;
 }
 
 .u-section-1 .u-image-1 {
-  height: 813px;
-  margin-top: 1px;
+  height: 704px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
 .u-section-1 .u-btn-1 {
   font-family: "Baloo Bhai 2";
-  letter-spacing: 0px;
   transition-duration: 0.5s;
-  border-style: solid;
   font-size: 0.875rem;
+  border-style: solid;
   text-transform: uppercase;
   font-weight: 600;
-  background-image: none;
-  margin: -187px auto 0;
+  margin: -156px auto 0;
 }
 
 .u-section-1 .u-icon-1 {
@@ -26,15 +24,15 @@
   height: 25px;
   transition-duration: 0.5s;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: 77px auto 0;
+  margin: 34px auto 0;
   padding: 0;
 }
 
 .u-section-1 .u-image-2 {
-  width: 365px;
-  height: 365px;
+  width: 343px;
+  height: 343px;
   box-shadow: 2px 0 0 0 rgba(0,0,0,0);
-  margin: -553px auto 60px;
+  margin: -476px auto 60px;
 }
 
 @media (max-width: 1199px) {
@@ -47,6 +45,7 @@
   }
 
   .u-section-1 .u-btn-1 {
+    letter-spacing: normal;
     align-self: center;
     margin-top: -141px;
   }
@@ -67,11 +66,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-image-1 {
-    width: 1130px;
-    height: 794px;
     margin-top: -20px;
-    margin-right: auto;
-    margin-left: calc(((100% - 720px) / 2) + -218px);
   }
 
   .u-section-1 .u-btn-1 {
@@ -96,11 +91,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    height: 667px;
-    width: 973px;
     margin-top: -9px;
-    margin-left: -166px;
-    margin-right: -166px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -124,11 +115,7 @@
   }
 
   .u-section-1 .u-image-1 {
-    height: 642px;
-    width: 791px;
     margin-top: -56px;
-    margin-right: auto;
-    margin-left: calc(((100% - 340px) / 2) + -140px);
   }
 
   .u-section-1 .u-btn-1 {
@@ -1437,7 +1424,6 @@
   min-height: 306px;
   margin-top: 7px;
   margin-bottom: 34px;
-  height: auto;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -1472,7 +1458,6 @@
 
   .u-section-4 .u-group-1 {
     min-height: 335px;
-    height: auto;
   }
 
   .u-section-4 .u-text-2 {
