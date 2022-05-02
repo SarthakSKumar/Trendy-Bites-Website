@@ -37591,24 +37591,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 137px;
-}
-
-.u-header .u-image-1 {
-  width: 170px;
-  height: 143px;
-  transition-duration: 0.5s;
-  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: 11px auto 0 calc(((100% - 1140px) / 2) + 57px);
-}
-
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
+  min-height: 98px;
 }
 
 .u-header .u-menu-1 {
-  margin: -111px calc(((100% - 1140px) / 2) + 150px) 0 auto;
+  margin: 30px 42px 30px auto;
 }
 
 .u-header .u-file-icon-1 {
@@ -37617,9 +37604,10 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-nav-1 {
-  font-weight: 700;
-  font-family: "Baloo Bhai 2";
   font-size: 1.125rem;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
 }
 
 .u-header .u-sidenav-1 {
@@ -37638,55 +37626,18 @@ a.u-link.u-text-hover-grey-90:hover {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
 }
-
-.u-header .u-social-icons-1 {
-  height: 25px;
-  min-height: 16px;
-  width: 95px;
-  min-width: 68px;
-  margin: -31px calc(((100% - 1140px) / 2) + 22px) 60px auto;
-}
-
-.u-header .u-icon-1 {
-  height: 100%;
-}
-
-.u-header .u-icon-2 {
-  height: 100%;
-}
-
-.u-header .u-icon-3 {
-  height: 100%;
-}
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
     min-height: 134px;
   }
 
-  .u-header .u-image-1 {
-    width: 170px;
-    margin-left: calc(((100% - 940px) / 2) + 57px);
-  }
-
   .u-header .u-menu-1 {
-    margin-top: -111px;
     margin-right: calc(((100% - 940px) / 2) + 150px);
-  }
-
-  .u-header .u-social-icons-1 {
-    width: 95px;
-    margin-top: -36px;
-    margin-right: 31px;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-image-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 195px);
-  }
-
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -110px;
     margin-right: 24px;
   }
 
@@ -37702,21 +37653,9 @@ a.u-link.u-text-hover-grey-90:hover {
     font-weight: 500;
     margin: 301px 324px 0 auto;
   }
-
-  .u-header .u-social-icons-1 {
-    margin-top: -28px;
-    margin-right: 141px;
-  }
 }
 @media (max-width: 767px) {
-  .u-header .u-image-1 {
-    width: 170px;
-    margin-top: 17px;
-    margin-left: 19px;
-  }
-
   .u-header .u-menu-1 {
-    margin-top: -112px;
     margin-right: 58px;
   }
 
@@ -37724,28 +37663,14 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 154px;
     margin-right: 16px;
   }
-
-  .u-header .u-social-icons-1 {
-    margin-right: 176px;
-    margin-bottom: 58px;
-  }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
     min-height: 131px;
   }
 
-  .u-header .u-image-1 {
-    width: 138px;
-    height: 116px;
-    margin-top: 8px;
-    margin-left: 19px;
-  }
-
   .u-header .u-menu-1 {
-    margin-top: -74px;
     margin-right: 52px;
-    margin-bottom: 50px;
   }
 
   .u-header .u-file-icon-1 {
@@ -37759,28 +37684,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: 256px;
     margin-right: 135px;
   }
-
-  .u-header .u-social-icons-1 {
-    margin-top: -564px;
-    margin-right: 102px;
-  }
 }
-.u-header .u-image-1, .u-header .u-image-1:before {
-    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position
-}
-.u-header .u-image-1.u-image-1.u-image-1:hover {
-    transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important
-}
-.u-header .u-image-1.u-image-1.u-image-1.hover {
-    transform: translateX(0px) translateY(0px) scale(1.1) rotate(0deg) !important
-}
-.u-header .u-container-layout:hover .u-image-1 {
-    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
-}
-.u-container-layout.hover .u-header .u-image-1 {
-    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
-} 
-
 .u-footer .u-sheet-1 {
   min-height: 424px;
 }
@@ -38180,13 +38084,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 450px;
+    min-height: 466px;
   }
 
   .u-footer .u-layout-wrap-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 940px;
+    margin-right: -19px;
   }
 
   .u-footer .u-text-1 {
@@ -38315,8 +38218,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-layout-wrap-3 {
-    margin-top: 62px;
-    margin-bottom: 0;
+    width: 940px;
+    margin: 49px -32px 0 auto;
   }
 
   .u-footer .u-layout-cell-10 {
@@ -38343,12 +38246,14 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-layout-cell-11 {
-    min-height: 195px;
+    min-height: 230px;
   }
 
   .u-footer .u-text-12 {
-    margin-right: 0;
-    margin-left: 281px;
+    width: auto;
+    margin-top: 0;
+    margin-right: 45px;
+    margin-left: 236px;
   }
 
   .u-footer .u-text-13 {
@@ -38389,9 +38294,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-layout-wrap-1 {
     position: relative;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 720px;
+    margin-right: 0;
   }
 
   .u-footer .u-text-1 {
@@ -38519,7 +38423,8 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-layout-wrap-3 {
     margin-top: -344px;
-    margin-bottom: 0;
+    width: 720px;
+    margin-right: 0;
   }
 
   .u-footer .u-layout-cell-10 {
@@ -38544,7 +38449,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-11 {
-    margin-top: 130px;
+    margin-top: 125px;
     margin-right: 104px;
     margin-left: 31px;
   }
@@ -38559,8 +38464,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-12 {
-    width: auto;
-    margin-top: 0;
+    margin-top: 154px;
     margin-right: -34px;
     margin-left: 148px;
   }
@@ -38592,7 +38496,6 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 540px;
     margin-top: 556px;
     margin-right: -13px;
-    margin-left: auto;
   }
 
   .u-footer .u-container-layout-1 {
@@ -38695,6 +38598,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-layout-wrap-3 {
     position: relative;
     margin-top: 20px;
+    width: 540px;
   }
 
   .u-footer .u-layout-cell-10 {
@@ -38825,6 +38729,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-layout-wrap-3 {
     margin-bottom: 2px;
+    width: 340px;
   }
 
   .u-footer .u-text-9 {
