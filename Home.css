@@ -21,7 +21,6 @@
   border-style: solid;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: normal;
   margin: 39px auto 0;
 }
 
@@ -50,6 +49,7 @@
 
   .u-section-1 .u-btn-1 {
     align-self: center;
+    letter-spacing: normal;
   }
 }
 
@@ -74,7 +74,6 @@
   }
 
   .u-section-1 .u-btn-1 {
-    letter-spacing: normal;
     padding: 3px 16px 4px;
   }
 }
@@ -175,7 +174,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -183px 512px 0 30px;
+  margin: -169px 512px 0 30px;
 }
 
 .u-section-2 .u-list-1 {
@@ -443,7 +442,6 @@
   .u-section-2 .u-text-2 {
     margin-top: 20px;
     margin-right: 5px;
-    margin-bottom: initial;
   }
 
   .u-section-2 .u-repeater-1 {
@@ -536,7 +534,6 @@
   .u-section-2 .u-text-2 {
     margin-top: -26px;
     margin-right: 0;
-    margin-bottom: 0;
   }
 
   .u-section-2 .u-repeater-1 {
@@ -786,7 +783,6 @@
 
 .u-section-3 .u-list-1 {
   grid-template-rows: auto;
-  width: 1140px;
   margin: 0;
 }
 
@@ -954,7 +950,8 @@
 
 @media (max-width: 1199px) {
   .u-section-3 .u-list-1 {
-    width: 940px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-repeater-1 {
@@ -998,10 +995,6 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-3 .u-list-1 {
-    width: 720px;
-  }
-
   .u-section-3 .u-repeater-1 {
     grid-template-columns: repeat(2, 50%);
     min-height: 710px;
@@ -1054,10 +1047,6 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-3 .u-list-1 {
-    width: 540px;
-  }
-
   .u-section-3 .u-repeater-1 {
     grid-template-columns: 100%;
   }
@@ -1125,10 +1114,6 @@
 @media (max-width: 575px) {
   .u-section-3 .u-text-1 {
     margin-top: 39px;
-  }
-
-  .u-section-3 .u-list-1 {
-    width: 340px;
   }
 
   .u-section-3 .u-text-3 {
@@ -1461,7 +1446,7 @@
   font-weight: 500;
   font-size: 1.125rem;
   --animation-custom_in-scale: 1;
-  margin: 38px 401px 0 29px;
+  margin: 31px 385px 0 33px;
 }
 
 .u-section-4 .u-image-1 {
@@ -1474,7 +1459,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: -216px 69px 0 auto;
+  margin: -236px 58px 0 auto;
 }
 
 @media (max-width: 1199px) {
