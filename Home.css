@@ -128,17 +128,17 @@
 .u-section-1 .u-btn-1.u-btn-1.u-btn-1.hover {
   border-radius: 10px !important;
 }.u-section-2 .u-sheet-1 {
-  min-height: 686px;
+  min-height: 641px;
 }
 
 .u-section-2 .u-text-1 {
   transition-duration: 0.5s;
-  width: 240px;
   font-family: "Baloo Bhai 2";
   font-size: 1.75rem;
+  width: 240px;
   font-weight: 800;
   background-image: none;
-  margin: 41px auto 0;
+  margin: 35px auto 0;
 }
 
 .u-section-2 .u-line-1 {
@@ -179,8 +179,8 @@
 }
 
 .u-section-2 .u-list-1 {
-  margin-bottom: 10px;
-  margin-top: 18px;
+  margin-bottom: 2px;
+  margin-top: 1px;
 }
 
 .u-section-2 .u-repeater-1 {
@@ -792,7 +792,7 @@
   transition-duration: 0.5s;
   font-size: 1.75rem;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: 38px auto 0;
+  margin: 35px auto 0;
 }
 
 .u-section-3 .u-line-1 {
@@ -1474,14 +1474,14 @@
   font-weight: 800;
   transition-duration: 0.5s;
   font-size: 1.75rem;
-  margin: 33px auto 0;
+  margin: 35px auto 0;
 }
 
 .u-section-4 .u-line-1 {
   width: 170px;
   height: 6px;
   transform-origin: center top 0px;
-  margin: 6px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-4 .u-group-1 {
@@ -1549,10 +1549,6 @@
   .u-section-4 .u-text-1 {
     width: auto;
     margin-top: 39px;
-  }
-
-  .u-section-4 .u-line-1 {
-    margin-top: 0;
   }
 
   .u-section-4 .u-group-1 {
@@ -1664,14 +1660,14 @@
   font-weight: 800;
   transition-duration: 0.5s;
   font-size: 1.75rem;
-  margin: 40px auto 0;
+  margin: 35px auto 0;
 }
 
 .u-section-5 .u-line-1 {
   width: 150px;
   height: 6px;
   transform-origin: center top 0px;
-  margin: -2px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-5 .u-layout-wrap-1 {
@@ -1843,10 +1839,6 @@
   .u-section-5 .u-text-1 {
     width: auto;
     margin-top: 53px;
-  }
-
-  .u-section-5 .u-line-1 {
-    margin-top: 0;
   }
 
   .u-section-5 .u-layout-wrap-1 {
