@@ -21,7 +21,6 @@
   border-style: solid;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: normal;
   margin: 39px auto 0;
 }
 
@@ -50,6 +49,7 @@
 
   .u-section-1 .u-btn-1 {
     align-self: center;
+    letter-spacing: normal;
   }
 }
 
@@ -60,12 +60,6 @@
 
   .u-section-1 .u-btn-1 {
     align-self: flex-end;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-1 .u-btn-1 {
-    letter-spacing: normal;
   }
 }
 
