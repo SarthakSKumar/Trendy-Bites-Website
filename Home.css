@@ -21,6 +21,7 @@
   border-style: solid;
   text-transform: uppercase;
   font-weight: 600;
+  letter-spacing: normal;
   margin: 39px auto 0;
 }
 
@@ -49,7 +50,6 @@
 
   .u-section-1 .u-btn-1 {
     align-self: center;
-    letter-spacing: normal;
   }
 }
 
