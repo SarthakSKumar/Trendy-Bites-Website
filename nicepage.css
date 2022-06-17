@@ -37587,102 +37587,127 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: linear-gradient(black, rgba(219,84,90,0));
+  background-image: none;
 }
 
 .u-header .u-sheet-1 {
-  min-height: 98px;
+  min-height: 86px;
+}
+
+.u-header .u-image-1 {
+  width: 174px;
+  height: 146px;
+  margin: 12px auto 0 58px;
+}
+
+.u-header .u-logo-image-1 {
+  width: 100%;
+  height: 100%;
 }
 
 .u-header .u-menu-1 {
-  margin: 30px 42px 30px auto;
+  margin: -134px 145px 0 auto;
 }
 
 .u-header .u-file-icon-1 {
-  font-size: calc(1em + 8px);
-  padding: 4px 26px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .u-header .u-nav-1 {
-  font-size: 1.125rem;
-  letter-spacing: 0px;
   font-weight: 700;
-  font-family: Montserrat, sans-serif;
-}
-
-.u-header .u-sidenav-1 {
-  width: 170px;
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.u-header .u-menu-close-1 {
-  margin-top: 20px;
-  margin-bottom: 0;
+  font-family: "Baloo Bhai 2";
+  font-size: 1.125rem;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
-  font-size: 1rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: normal;
+  font-size: 1.125rem;
+  letter-spacing: 0px;
+  font-family: "Baloo Bhai 2";
+  font-weight: 700;
+}
+
+.u-header .u-social-icons-1 {
+  height: 24px;
+  min-height: 16px;
+  width: 92px;
+  min-width: 68px;
+  margin: -31px 24px 31px auto;
+}
+
+.u-header .u-icon-1 {
+  height: 100%;
+}
+
+.u-header .u-icon-2 {
+  height: 100%;
+}
+
+.u-header .u-icon-3 {
+  height: 100%;
 }
 @media (max-width: 1199px) {
-  .u-header .u-sheet-1 {
-    min-height: 134px;
+  .u-header .u-image-1 {
+    margin-left: 58px;
+    width: 174px;
   }
 
   .u-header .u-menu-1 {
-    margin-right: calc(((100% - 940px) / 2) + 150px);
+    width: auto;
+    margin-top: -134px;
+    margin-right: 145px;
+  }
+
+  .u-header .u-file-icon-1 {
+    font-size: 1.625rem;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-menu-1 {
-    width: auto;
-    margin-right: 24px;
+    margin-top: -132px;
+    margin-right: 58px;
   }
 
-  .u-header .u-file-icon-1 {
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-
-  .u-header .u-nav-2 {
-    font-size: 1.125rem;
-    font-family: "Baloo Bhai 2";
-    width: 154px;
-    font-weight: 500;
-    margin: 301px 324px 0 auto;
+  .u-header .u-social-icons-1 {
+    margin-top: -29px;
+    margin-right: 134px;
+    margin-bottom: 31px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
-    margin-right: 58px;
+    margin-top: -132px;
+    margin-right: 31px;
   }
 
-  .u-header .u-nav-2 {
-    width: 154px;
-    margin-right: 16px;
+  .u-header .u-social-icons-1 {
+    margin-top: -29px;
+    margin-bottom: 31px;
   }
 }
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 131px;
+  .u-header .u-image-1 {
+    width: 135px;
+    height: 114px;
+    margin-top: 13px;
+    margin-left: 0;
   }
 
   .u-header .u-menu-1 {
-    margin-right: 52px;
+    margin-top: -95px;
+    margin-right: 16px;
   }
 
   .u-header .u-file-icon-1 {
-    padding-left: 14px;
-    padding-right: 14px;
+    font-size: calc(1em + 2px);
+    padding: 1px 16px;
   }
 
-  .u-header .u-nav-2 {
-    width: 166px;
-    font-weight: 600;
-    margin-top: 256px;
-    margin-right: 135px;
+  .u-header .u-social-icons-1 {
+    margin-top: -23px;
+    margin-right: 64px;
+    margin-bottom: 31px;
   }
 }
 .u-footer .u-sheet-1 {
@@ -38221,7 +38246,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-image-3 {
-    margin-top: -60px;
     margin-left: 38px;
   }
 
