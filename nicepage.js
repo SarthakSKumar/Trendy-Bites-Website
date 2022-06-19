@@ -10,7 +10,6 @@ $(document).ready(function () {
         else {
             $(".u-logo-image").css("height", "100%");
             $(".u-logo-image").css("width", "100%");
-            $(".u-logo-image").css("transition", "0.5s");
         }
     })
 })
