@@ -21,7 +21,6 @@
   border-style: solid;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: normal;
   margin: 39px auto 0;
 }
 
@@ -50,6 +49,7 @@
 
   .u-section-1 .u-btn-1 {
     align-self: center;
+    letter-spacing: normal;
   }
 }
 
@@ -65,7 +65,8 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    background-position: 23.86% 50%;
+    background-position: 20.99% 90.62%;
+    background-size: auto 120%;
   }
 
   .u-section-1 .u-image-1 {
@@ -1912,17 +1913,18 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 659px;
+    min-height: 618px;
   }
 
   .u-section-5 .u-layout-wrap-1 {
     width: 328px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 24px;
   }
 
   .u-section-5 .u-layout-cell-1 {
-    min-height: 172px;
+    min-height: 118px;
   }
 
   .u-section-5 .u-icon-1 {
@@ -1942,6 +1944,7 @@
   }
 
   .u-section-5 .u-form-1 {
+    width: 328px;
     margin-right: 0;
   }
 }

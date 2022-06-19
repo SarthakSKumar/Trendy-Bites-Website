@@ -37692,12 +37692,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     margin-top: -102px;
-    margin-right: 0;
   }
 
   .u-header .u-social-icons-1 {
     margin-right: 77px;
-    margin-bottom: 32px;
+    margin-bottom: 31px;
   }
 }
 @media (max-width: 575px) {
@@ -37713,7 +37712,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     margin-top: -100px;
-    margin-right: 0;
   }
 
   .u-header .u-file-icon-1 {
@@ -37894,13 +37892,13 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-6 {
   font-family: "Baloo Bhai 2";
-  font-size: 0.875rem;
   font-weight: normal;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  background-image: none;
   margin: -18px 67px 0 auto;
 }
 
@@ -38006,11 +38004,11 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-6 {
-    font-size: 1rem;
     font-weight: 600;
     width: auto;
     margin-top: -19px;
     margin-right: 57px;
+    font-size: 1rem;
   }
 
   .u-footer .u-text-7 {
@@ -38197,7 +38195,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 568px;
+    min-height: 570px;
   }
 
   .u-footer .u-layout-cell-1 {
@@ -38231,7 +38229,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-layout-cell-2 {
-    min-height: 68px;
+    min-height: 70px;
   }
 
   .u-footer .u-container-layout-2 {
@@ -38248,12 +38246,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-5 {
     margin-top: 267px;
-    margin-right: 85px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-footer .u-social-icons-1 {
-    margin-bottom: -198px;
-    margin-left: 117px;
+    margin-top: 6px;
+    margin-right: auto;
+    margin-bottom: -202px;
   }
 
   .u-footer .u-layout-cell-3 {
@@ -38286,24 +38286,23 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-image-6 {
-    margin-top: 36px;
-    margin-left: 50px;
+    margin-top: 28px;
+    margin-left: 66px;
   }
 
   .u-footer .u-text-6 {
-    margin-right: 78px;
+    margin-top: -20px;
+    margin-right: 65px;
     margin-left: auto;
   }
 
   .u-footer .u-text-7 {
-    margin-top: 46px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-top: 48px;
+    margin-right: 0;
   }
 
   .u-footer .u-text-8 {
-    width: 177px;
-    margin: 10px auto 20px;
+    margin: 7px 0 20px;
   }
 }
 
