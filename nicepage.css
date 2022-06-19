@@ -37619,7 +37619,6 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
   font-family: "Baloo Bhai 2";
   font-size: 1.125rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -37658,6 +37657,10 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
     margin-top: -134px;
     margin-right: 145px;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 }
 @media (max-width: 991px) {
