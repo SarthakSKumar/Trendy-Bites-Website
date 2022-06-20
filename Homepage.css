@@ -1542,7 +1542,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: -202px 41px 0 auto;
+  margin: -202px 41px 21px auto;
 }
 
 @media (max-width: 1199px) {
