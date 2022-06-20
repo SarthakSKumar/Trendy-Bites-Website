@@ -37783,6 +37783,11 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 8px 183px 0 15px;
 }
 
+.u-footer .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
 .u-footer .u-layout-cell-2 {
   min-height: 208px;
 }
@@ -37830,7 +37835,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-layout-cell-3 {
-  min-height: 208px;
+  min-height: 210px;
 }
 
 .u-footer .u-container-layout-3 {
@@ -37881,17 +37886,6 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -65px auto 0 80px;
 }
 
-.u-footer .u-image-6 {
-  width: 37px;
-  height: 18px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
-  margin: 18px auto 0 97px;
-}
-
 .u-footer .u-text-6 {
   font-family: "Baloo Bhai 2";
   font-weight: normal;
@@ -37901,7 +37895,21 @@ a.u-link.u-text-hover-grey-90:hover {
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   background-image: none;
-  margin: -18px 67px 0 auto;
+  font-size: 1rem;
+  margin: 18px 67px 0 auto;
+}
+
+.u-footer .u-image-6 {
+  width: 37px;
+  height: 18px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  left: 95px;
+  top: 176px;
+  margin: -25px auto 0 79px;
 }
 
 .u-footer .u-text-7 {
@@ -37916,7 +37924,7 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -16px 23px 24px 940px;
 }
 
-.u-footer .u-btn-1 {
+.u-footer .u-btn-2 {
   background-image: none;
   font-family: "Baloo Bhai 2";
   padding: 0;
@@ -37975,42 +37983,36 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-image-2 {
     width: 61px;
     height: 61px;
-    margin-top: 9px;
-    margin-right: 57px;
+    margin-right: 67px;
   }
 
   .u-footer .u-image-3 {
     height: 60px;
     width: 113px;
-    margin-top: -60px;
-    margin-left: 43px;
+    margin-top: -58px;
+    margin-left: 75px;
   }
 
   .u-footer .u-image-4 {
     width: 72px;
-    margin-top: 18px;
-    margin-right: 51px;
+    margin-right: 61px;
   }
 
   .u-footer .u-image-5 {
     width: 109px;
     height: 62px;
-    margin-top: -72px;
-    margin-left: 45px;
-  }
-
-  .u-footer .u-image-6 {
-    width: 37px;
-    margin-top: 22px;
-    margin-left: 30px;
+    margin-top: -65px;
+    margin-left: 80px;
   }
 
   .u-footer .u-text-6 {
     font-weight: 600;
-    width: auto;
-    margin-top: -19px;
-    margin-right: 57px;
-    font-size: 1rem;
+    margin-right: 67px;
+  }
+
+  .u-footer .u-image-6 {
+    width: 37px;
+    margin-left: 30px;
   }
 
   .u-footer .u-text-7 {
@@ -38074,34 +38076,8 @@ a.u-link.u-text-hover-grey-90:hover {
     padding: 0 5px;
   }
 
-  .u-footer .u-image-2 {
-    margin-top: 90px;
-    margin-right: 42px;
-  }
-
-  .u-footer .u-image-3 {
-    margin-top: -136px;
-    margin-left: 9px;
-  }
-
-  .u-footer .u-image-4 {
-    margin-top: -66px;
-    margin-right: 37px;
-  }
-
-  .u-footer .u-image-5 {
-    margin-top: 9px;
-    margin-left: 9px;
-  }
-
   .u-footer .u-image-6 {
-    margin-top: 18px;
     margin-left: 11px;
-  }
-
-  .u-footer .u-text-6 {
-    margin-top: -17px;
-    margin-right: 37px;
   }
 
   .u-footer .u-text-7 {
@@ -38155,35 +38131,8 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 15px;
   }
 
-  .u-footer .u-image-2 {
-    margin-top: -159px;
-    margin-right: 152px;
-  }
-
-  .u-footer .u-image-3 {
-    margin-top: -60px;
-    margin-left: 154px;
-  }
-
-  .u-footer .u-image-4 {
-    margin-top: -67px;
-    margin-right: 30px;
-  }
-
-  .u-footer .u-image-5 {
-    margin-top: -68px;
-    margin-right: 196px;
-  }
-
   .u-footer .u-image-6 {
-    margin-top: 19px;
     margin-left: 32px;
-  }
-
-  .u-footer .u-text-6 {
-    margin-top: -18px;
-    margin-right: 67px;
-    margin-left: 76px;
   }
 
   .u-footer .u-text-7 {
@@ -38267,35 +38216,8 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-right: 0;
   }
 
-  .u-footer .u-image-2 {
-    margin-top: -61px;
-    margin-right: 70px;
-  }
-
-  .u-footer .u-image-3 {
-    margin-left: 38px;
-  }
-
-  .u-footer .u-image-4 {
-    margin-top: 18px;
-    margin-right: 64px;
-  }
-
-  .u-footer .u-image-5 {
-    margin-top: -67px;
-    margin-right: auto;
-    margin-left: 38px;
-  }
-
   .u-footer .u-image-6 {
-    margin-top: 28px;
     margin-left: 66px;
-  }
-
-  .u-footer .u-text-6 {
-    margin-top: -20px;
-    margin-right: 65px;
-    margin-left: auto;
   }
 
   .u-footer .u-text-7 {
