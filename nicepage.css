@@ -37733,7 +37733,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 .u-footer .u-sheet-1 {
-  min-height: 290px;
+  min-height: 310px;
 }
 
 .u-footer .u-layout-wrap-1 {
@@ -37742,31 +37742,31 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-layout-cell-1 {
-  min-height: 208px;
+  min-height: 210px;
 }
 
 .u-footer .u-container-layout-1 {
-  padding: 21px 8px;
+  padding: 21px 0;
 }
 
 .u-footer .u-text-1 {
   font-size: 1.125rem;
   font-family: "Baloo Bhai 2";
   font-weight: 700;
-  margin: 0 80px 0 15px;
+  margin: 0 0 0 37px;
 }
 
 .u-footer .u-text-2 {
   font-family: "Baloo Bhai 2";
   font-size: 1rem;
-  margin: 0 0 0 38px;
+  margin: 0 86px 0 58px;
 }
 
 .u-footer .u-text-3 {
   font-size: 1rem;
   font-family: "Baloo Bhai 2";
   font-weight: 500;
-  margin: 10px 16px 0;
+  margin: 8px 165px 0 37px;
 }
 
 .u-footer .u-icon-2 {
@@ -37777,7 +37777,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1rem;
   font-family: "Baloo Bhai 2";
   font-weight: 500;
-  margin: 8px 183px 0 15px;
+  margin: 12px 177px 0 37px;
 }
 
 .u-footer .u-btn-1 {
@@ -37786,7 +37786,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-layout-cell-2 {
-  min-height: 208px;
+  min-height: 210px;
 }
 
 .u-footer .u-container-layout-2 {
@@ -37847,7 +37847,7 @@ a.u-link.u-text-hover-grey-90:hover {
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 9px 67px 0 auto;
+  margin: 8px 30px 0 auto;
 }
 
 .u-footer .u-image-3 {
@@ -37858,7 +37858,7 @@ a.u-link.u-text-hover-grey-90:hover {
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   width: 113px;
-  margin: -58px auto 0 75px;
+  margin: -59px auto 0 76px;
 }
 
 .u-footer .u-image-4 {
@@ -37869,7 +37869,7 @@ a.u-link.u-text-hover-grey-90:hover {
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 7px 61px 0 auto;
+  margin: 6px 23px 0 auto;
 }
 
 .u-footer .u-image-5 {
@@ -37880,7 +37880,7 @@ a.u-link.u-text-hover-grey-90:hover {
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -65px auto 0 80px;
+  margin: -69px auto 0 80px;
 }
 
 .u-footer .u-text-6 {
@@ -37893,7 +37893,7 @@ a.u-link.u-text-hover-grey-90:hover {
   --animation-custom_in-scale: 1;
   background-image: none;
   font-size: 1rem;
-  margin: 18px 67px 0 auto;
+  margin: 18px 49px 0 auto;
 }
 
 .u-footer .u-image-6 {
@@ -37904,24 +37904,29 @@ a.u-link.u-text-hover-grey-90:hover {
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -25px auto 0 80px;
+  margin: -25px auto 0 98px;
 }
 
 .u-footer .u-text-7 {
   font-family: "Baloo Bhai 2";
   font-size: 0.75rem;
-  margin: 23px 807px 0 24px;
+  width: 203px;
+  margin: 28px auto 0;
 }
 
 .u-footer .u-text-8 {
   font-family: "Baloo Bhai 2";
   font-size: 0.625rem;
-  margin: -16px 23px 24px 940px;
+  width: 246px;
+  margin: 0 auto 21px;
 }
 
 .u-footer .u-btn-2 {
   background-image: none;
   font-family: "Baloo Bhai 2";
+  font-size: 0.625rem;
+  margin-right: auto;
+  margin-left: auto;
   padding: 0;
 }
 @media (max-width: 1199px) {
@@ -37929,33 +37934,27 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 316px;
   }
 
-  .u-footer .u-layout-wrap-1 {
-    margin-top: 11px;
-  }
-
   .u-footer .u-layout-cell-1 {
     min-height: 211px;
   }
 
   .u-footer .u-text-1 {
-    margin-right: 29px;
     margin-left: 0;
   }
 
   .u-footer .u-text-2 {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin-right: 52px;
+    margin-left: 24px;
   }
 
   .u-footer .u-text-3 {
-    margin-left: 0;
-    margin-right: 0;
+    margin-right: 132px;
+    margin-left: 4px;
   }
 
   .u-footer .u-text-4 {
-    margin-right: 132px;
-    margin-left: 0;
+    margin-right: 143px;
+    margin-left: 4px;
   }
 
   .u-footer .u-layout-cell-2 {
@@ -37978,48 +37977,40 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-footer .u-image-2 {
     width: 61px;
     height: 61px;
-    margin-right: 67px;
   }
 
   .u-footer .u-image-3 {
     height: 60px;
     width: 113px;
-    margin-top: -58px;
-    margin-left: 75px;
+    margin-top: -59px;
+    margin-left: 76px;
   }
 
   .u-footer .u-image-4 {
     width: 72px;
-    margin-right: 61px;
+    margin-right: 23px;
   }
 
   .u-footer .u-image-5 {
     width: 109px;
     height: 62px;
-    margin-top: -65px;
+    margin-top: -69px;
     margin-left: 80px;
   }
 
   .u-footer .u-text-6 {
-    font-weight: 600;
-    margin-right: 67px;
+    width: auto;
+    margin-right: 23px;
   }
 
   .u-footer .u-image-6 {
     width: 37px;
-    margin-left: 30px;
-  }
-
-  .u-footer .u-text-7 {
-    width: auto;
-    margin-top: 44px;
-    margin-right: 617px;
-    margin-left: 14px;
+    margin-top: -25px;
+    margin-left: 71px;
   }
 
   .u-footer .u-text-8 {
-    width: auto;
-    margin: -19px 15px 34px 748px;
+    margin-top: 0;
   }
 }
 @media (max-width: 991px) {
@@ -38027,20 +38018,23 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 291px;
   }
 
-  .u-footer .u-layout-wrap-1 {
-    margin-top: 10px;
-  }
-
   .u-footer .u-layout-cell-1 {
     min-height: 197px;
   }
 
-  .u-footer .u-text-1 {
-    margin-right: 0;
+  .u-footer .u-text-2 {
+    margin-right: 27px;
+    margin-left: 0;
+  }
+
+  .u-footer .u-text-3 {
+    margin-right: 87px;
+    margin-left: 0;
   }
 
   .u-footer .u-text-4 {
-    margin-right: 59px;
+    margin-right: 98px;
+    margin-left: 0;
   }
 
   .u-footer .u-layout-cell-2 {
@@ -38071,27 +38065,21 @@ a.u-link.u-text-hover-grey-90:hover {
     padding: 0 5px;
   }
 
+  .u-footer .u-image-3 {
+    margin-left: 36px;
+  }
+
+  .u-footer .u-image-5 {
+    margin-left: 37px;
+  }
+
   .u-footer .u-image-6 {
-    margin-left: 11px;
-  }
-
-  .u-footer .u-text-7 {
-    margin-top: 42px;
-    margin-right: 411px;
-    margin-left: 0;
-  }
-
-  .u-footer .u-text-8 {
-    margin: -16px 19px 22px 529px;
+    margin-left: 32px;
   }
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
     min-height: 379px;
-  }
-
-  .u-footer .u-layout-wrap-1 {
-    margin-top: 0;
   }
 
   .u-footer .u-layout-cell-1 {
@@ -38126,17 +38114,16 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 15px;
   }
 
+  .u-footer .u-image-3 {
+    margin-left: 36px;
+  }
+
+  .u-footer .u-image-5 {
+    margin-left: 37px;
+  }
+
   .u-footer .u-image-6 {
     margin-left: 32px;
-  }
-
-  .u-footer .u-text-7 {
-    margin-top: -21px;
-    margin-right: 231px;
-  }
-
-  .u-footer .u-text-8 {
-    margin: -16px 18px 31px 355px;
   }
 }
 @media (max-width: 575px) {
@@ -38149,29 +38136,20 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-container-layout-1 {
-    padding: 14px 0;
-  }
-
-  .u-footer .u-text-1 {
-    width: auto;
-    margin-top: 16px;
-    margin-right: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 
   .u-footer .u-text-2 {
-    width: auto;
-    margin-right: 15px;
+    margin-right: 0;
   }
 
   .u-footer .u-text-3 {
-    width: auto;
-    margin-right: 15px;
+    margin-right: 0;
   }
 
   .u-footer .u-text-4 {
-    width: auto;
-    margin-right: 15px;
-    margin-bottom: -7px;
+    margin-right: 0;
   }
 
   .u-footer .u-layout-cell-2 {
@@ -38191,15 +38169,14 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-5 {
-    margin-top: 267px;
+    margin-top: 40px;
     margin-left: 0;
     margin-right: 0;
   }
 
   .u-footer .u-social-icons-1 {
-    margin-top: 6px;
+    margin-top: 8px;
     margin-right: auto;
-    margin-bottom: -202px;
   }
 
   .u-footer .u-layout-cell-3 {
@@ -38211,17 +38188,28 @@ a.u-link.u-text-hover-grey-90:hover {
     padding-right: 0;
   }
 
+  .u-footer .u-image-2 {
+    margin-right: 63px;
+  }
+
+  .u-footer .u-image-3 {
+    margin-left: 55px;
+  }
+
+  .u-footer .u-image-4 {
+    margin-right: 58px;
+  }
+
+  .u-footer .u-image-5 {
+    margin-left: 56px;
+  }
+
+  .u-footer .u-text-6 {
+    margin-right: 65px;
+  }
+
   .u-footer .u-image-6 {
     margin-left: 66px;
-  }
-
-  .u-footer .u-text-7 {
-    margin-top: 48px;
-    margin-right: 0;
-  }
-
-  .u-footer .u-text-8 {
-    margin: 7px 0 20px;
   }
 }
 
